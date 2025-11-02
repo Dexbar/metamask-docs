@@ -1,4 +1,7 @@
----
+curl --url https://mainnet.infura.io/v3/c765b582f7044096a2b678919c133abb \
+  -X POST \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_getBlockTransactionCountByNumber","params":["latest"],"id":1}'---
 description: API method credit cost.
 ---
 
